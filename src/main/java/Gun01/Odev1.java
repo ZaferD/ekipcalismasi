@@ -19,6 +19,7 @@ public class Odev1 {
     public void odev1() {
         driver.manage().window().maximize();
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
         //    1. https://demoblaze.com/  sayfasina gidin
         driver.get("https://demoblaze.com/");
         //    2. "Log in" butonuna tiklayin
