@@ -41,7 +41,7 @@ public class Test1 {
         // productlarin fiyatlarini consola yazdirma
         List<Product> products = pp.getAllProducts();
         for (Product product : products) {
-            System.out.println(product.getPrice());
+           System.out.println(product.getPrice());
         }
 
         // isminde "Test.allTheThings" olan ürünü cart'a ekleme
