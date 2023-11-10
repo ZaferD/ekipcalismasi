@@ -1,12 +1,14 @@
 package odev3Bounus;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 import org.openqa.selenium.WebElement;
+@Getter
+@Setter
+@ToString
+@AllArgsConstructor
 
 public class Product {
+
     /**
      * WebElement name;
      * double price;
@@ -14,4 +16,9 @@ public class Product {
      * instance variable'lari tanimlidir
      * lombok'un @Getter, @Setter, @ToString ve @AllArgsConstructor annotationslarini kullanir
      */
+    WebElement name;
+    double price;
+    WebElement addToCart;
+
+
 }
